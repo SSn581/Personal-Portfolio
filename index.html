@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Personal Portfolio website
+  </title>
+
+  <meta name="Snehanjali" content="Computer science student from GGSIPU, New Delhi">
+  <meta name="name" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Snehanjali Sahu</span>
+        </h1>
+        <p>Data scientist | Machine learning specialist</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Portfolio Website</h3>
+              <p>
+                I created this portfolio website using the basic Web-development tools such as HTML, CSS and JS.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/SSn581?tab=repositories" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SSn581?tab=repositories" title="View Source Code" target="_blank">
+                  <img src="img/github.png" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="img/p-img.jpeg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Heart Attack Analysis Prediction</h3>
+              <p>
+               Using Machine learning and its algorithms like linear regression and python as a tool, I created this model. It analysis the data of a group of peoples from a sampled data and predicts how many people have the possibility of having the heart disease.              </p>
+              <ul class="work__list">
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>Jupyter Notebook</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/SSn581/Heart-attack-anaysis-Prediction" title="View Source Code" target="_blank">
+                  <img src="img/github.png" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="img/heart1.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- ***** My Skills ***** -->
+
+   <section class="skills" id="skills">
+      <div class="row">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                
+                <div class="column center">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Mchine learning</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line ml"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </section> 
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+                Hello, my name is Snehanjali Sahu, and I'm a data enthusiast with a keen interest in machine learning and artificial intelligence. I'm a Python enthusiast, and I love using this programming language to work on data science projects, develop machine learning models, and perform data analysis.
+                My passion for data science and machine learning led me to take several online courses, attend workshops. I'm always eager to learn new techniques and stay up-to-date with the latest trends in the field.
+            </p>
+            <a href="S-resume.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="img/profile2.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Hi 👋 this is Snehanjali Sahu, If you'd like to get in touch with me, please feel free to reach out via email or social media. I'm always interested in hearing from like-minded professionals and enthusiasts😊 who share my passion for data science, machine learning, and programming.
+          You can email me and I'll get back to you as soon as possible. 
+        </p>
+        <a href="mailto:snehanjali.sahu32@gmail.com" class="btn">snehanjali.sahu32@gmail.com</a>
+        <a href="https://www.linkedin.com/in/snehanjali-sahu-bb7121223" class="btn">Link to LinkedIn Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <span class="row">
+      
+        <!-- <li class="footer__social-link-item"> -->
+          <a href="https://github.com/SSn581" title="Link to Github Profile">
+            <img src="img/github.png" style="width: 50px; height: 50px; border: none; background-color: transparent;" alt="Github">
+          </a>
+        <!-- </li> -->
+        <!-- <li class="footer__social-link-item"> -->
+          <a href="https://www.linkedin.com/in/snehanjali-sahu-bb7121223" title="Link to LinkedIn Profile">
+            <img src="img/linkedin.png" style="width: 50px; height: 50px; border: none; background-color: transparent;" alt="Linkedin">
+          </a>
+        <!-- </li> -->
+      <!-- </ul> -->
+      <p>
+        &copy; 2023 - Designed & developed by <a href="@" type="button">Snehanjali sahu</a>
+      </p>
+      
+    </span>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="img/arrow-up.png" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./style.js"></script>
+</body>
+
+</html>
